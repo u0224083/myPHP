@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="./test3.js"></script>
+<script>
+var ajax = ajaxObj("POST" , "test3.php");
+ajax.onreadystatechange = function(){
+    if (ajaxReturn(ajax) == true){
+        alert(ajax.responseText);
+    }
+}
+ajax.send("target=test3");
+    
+</script>
+</head>
+</html>

@@ -1,0 +1,18 @@
+body{
+    font-family:Arial;
+    text-align:center;
+}
+table, tr{
+    border:1px solid black;
+}
+border-bottom{
+    border:1px solid black;
+}
+.point{
+    color:red;
+    font-size:16px;
+}
+fieldset{
+    width:220px;
+    margin: 0px auto;
+}
